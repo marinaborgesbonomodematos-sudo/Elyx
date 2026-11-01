@@ -1,0 +1,31 @@
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Original dataset
+data/raw/online_retail_II.xlsx
